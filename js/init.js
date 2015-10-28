@@ -50,4 +50,13 @@ $('.carousel-mobile').slick({
     // instead of a settings object
   ]
 });
-	
+
+// make fullscreen
+var wheight = $(window).height();
+$('.fullheight').css('height', wheight);
+
+// adjust to window resize
+$(window).resize(function() {
+  wheight = $(window).height();
+  $('.fullheight').css('height', wheight);
+});

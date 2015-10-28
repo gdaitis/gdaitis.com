@@ -4,8 +4,11 @@
 	max-width: 150px;
 	margin: 20px 0 10px 0;
 }
+.section {
+	margin-top: 30px;
+}
 .gallery {
-	margin-bottom: 0;
+	margin-bottom: 20px;
 }
 .gallery img {
 	width: 100%;
@@ -16,6 +19,9 @@
 	width: auto;
 	max-width: 320px;
 }
+.slick-slider {
+	margin-bottom: 10px;
+}
 .slick-slide {
 	padding: 0 10px 0 10px;
 }
@@ -24,8 +30,9 @@
 		height: 400px;
 	}
 }
-@media only screen and (max-width : 600px) {
-	.slick-slide {
-		height: 280px;
-	}
+#bio p {
+	font-size: 17px;
+}
+#bio .section {
+	margin-top: 0;
 }
