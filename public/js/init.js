@@ -12,14 +12,14 @@
   
   // make fullscreen
   var wheight = $(window).height() - topOffset;
+  if (wheight < 645) {
+    wheight = 645;
+  }
   $('.fullheight').css('height', wheight);
   
   // adjust to window resize
   $(window).resize(function() {
-    wheight = $(window).height() - topOffset;
-    if (wheight > 500) {
-      $('.fullheight').css('height', wheight);
-    }
+    $('.fullheight').css('height', wheight);
   });
   
   //Use smooth scrolling when clicking on navigation
