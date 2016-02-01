@@ -39,7 +39,7 @@
 #bio .section {
 	margin-top: 0;
 }
-#contact a:hover, a:active, a:link, a:visited {
+#contact a:hover, #contact a:active, #contact a:link, #contact a:visited {
     color: white;
 }
 /*nav ul {
