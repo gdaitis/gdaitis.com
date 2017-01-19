@@ -39,6 +39,10 @@
 #bio .section {
 	margin-top: 0;
 }
+#bio a:hover, #bio a:active, #bio a:link, #bio a:visited {
+    color: white;
+    font-weight: 400;
+}
 #contact a:hover, #contact a:active, #contact a:link, #contact a:visited {
     color: white;
 }
